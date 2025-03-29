@@ -1,4 +1,7 @@
 from enum import Enum
+import re
+from htmlnode import HTMLNode
+
 
 def markdown_to_blocks(markdown):
     split_markdown = markdown.strip().split("\n\n")
